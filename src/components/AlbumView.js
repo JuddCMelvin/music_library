@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom'
 
 function AlbumView() {
     const { id } = useParams()
-    const [ albumData, setalbumData ] = useState([])
+    const [ albumData, setAlbumData ] = useState([])
 
     return (
         <div>
